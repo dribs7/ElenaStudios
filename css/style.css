@@ -1521,7 +1521,7 @@ p {
 
 /* --- Page Header (for inner pages) --- */
 .page-header {
-  padding: 130px 0 var(--space-xl);
+  padding: 130px 0 var(--space-md);
   text-align: center;
 }
 
