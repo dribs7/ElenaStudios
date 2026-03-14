@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elena Fidalgo Designs — Interior Design Studio</title>
+  <meta name="description" content="Interior design studio specializing in thoughtful spatial planning, human comfort, and refined atmospheres.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="page-loader">
+    <div class="loader-line"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        Elena Fidalgo
+        <span>Interior Design</span>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <div class="nav__dropdown">
+          <span class="nav__link nav__link--dropdown">Projects</span>
+          <div class="nav__dropdown-menu">
+            <a href="project-restaurant.html" class="nav__dropdown-item">Izakaya Rouge</a>
+            <a href="project-loft.html" class="nav__dropdown-item">The Loft</a>
+            <a href="project-spa.html" class="nav__dropdown-item">Luna Wellness Spa</a>
+            <a href="project-office.html" class="nav__dropdown-item">The Office</a>
+          </div>
+        </div>
+        <a href="approach.html" class="nav__link">Services</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </div>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <a href="index.html" class="mobile-menu__link">Home</a>
+    <div class="mobile-menu__group">
+      <span class="mobile-menu__link mobile-menu__link--toggle">Projects</span>
+      <div class="mobile-menu__sub">
+        <a href="project-restaurant.html" class="mobile-menu__link mobile-menu__sublink">Izakaya Rouge</a>
+        <a href="project-loft.html" class="mobile-menu__link mobile-menu__sublink">The Loft</a>
+        <a href="project-spa.html" class="mobile-menu__link mobile-menu__sublink">Luna Wellness Spa</a>
+        <a href="project-office.html" class="mobile-menu__link mobile-menu__sublink">The Office</a>
+      </div>
+    </div>
+    <a href="approach.html" class="mobile-menu__link">Services</a>
+    <a href="about.html" class="mobile-menu__link">About</a>
+    <a href="contact.html" class="mobile-menu__link">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero hero--split">
+    <div class="hero__text">
+      <h1 class="hero__title">Elena Fidalgo</h1>
+      <p class="hero__subtitle">Interior Design</p>
+    </div>
+    <div class="hero__slideshow">
+      <img src="images/loft/kitchen-hero.png" alt="The Loft — Kitchen Design" class="hero__slide hero__slide--active">
+      <img src="images/loft/bedroom-render.jpg" alt="The Loft — Bedroom Design" class="hero__slide">
+      <img src="images/spa/moon-pool-cc.jpg" alt="Luna Wellness Spa — Moon Pool" class="hero__slide">
+      <div class="hero__dots">
+        <button class="hero__dot hero__dot--active" aria-label="Slide 1"></button>
+        <button class="hero__dot" aria-label="Slide 2"></button>
+        <button class="hero__dot" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy -->
+  <section class="home-philosophy">
+    <div class="container--narrow">
+      <div class="home-philosophy__content reveal">
+        <p class="home-philosophy__eyebrow">Design Philosophy</p>
+        <h2 class="home-philosophy__heading">Spaces that shape how people feel, interact, and experience the world around them.</h2>
+        <div class="home-philosophy__divider"></div>
+        <p class="home-philosophy__text">Elena Fidalgo Designs is rooted in the belief that great interiors begin with understanding how a space will be lived in, worked in, and felt. Each project is guided by thoughtful spatial planning and refined aesthetics — resulting in environments that are intentional, welcoming, and quietly refined.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Projects -->
+  <section class="section" style="background: var(--light-gray);">
+    <div class="container--wide">
+      <h2 class="projects-section__title reveal">Projects</h2>
+      <p class="projects-section__subtitle reveal">Click to view projects</p>
+      <div class="projects-grid">
+
+        <a href="project-restaurant.html" class="project-card project-card--wide reveal">
+          <img src="images/restaurant/restaurant-mainfloor.jpg" alt="Izakaya Rouge" class="project-card__image">
+          <div class="project-card__overlay">
+            <p class="project-card__number">01</p>
+            <h3 class="project-card__title">Izakaya Rouge</h3>
+            <p class="project-card__category">Restaurant &amp; Bar</p>
+          </div>
+        </a>
+
+        <a href="project-loft.html" class="project-card reveal reveal-delay-1">
+          <img src="images/loft/livingroom-render.jpg" alt="The Loft" class="project-card__image">
+          <div class="project-card__overlay">
+            <p class="project-card__number">02</p>
+            <h3 class="project-card__title">The Loft</h3>
+            <p class="project-card__category">Residential Interior</p>
+          </div>
+        </a>
+
+        <a href="project-spa.html" class="project-card reveal reveal-delay-2">
+          <img src="images/spa/pedicure-render.jpg" alt="Luna Wellness Spa" class="project-card__image">
+          <div class="project-card__overlay">
+            <p class="project-card__number">03</p>
+            <h3 class="project-card__title">Luna Wellness Spa</h3>
+            <p class="project-card__category">Wellness &amp; Hospitality</p>
+          </div>
+        </a>
+
+        <a href="project-office.html" class="project-card project-card--wide reveal">
+          <img src="images/office/waitingroom-render.png" alt="The Office" class="project-card__image">
+          <div class="project-card__overlay">
+            <p class="project-card__number">04</p>
+            <h3 class="project-card__title">The Office</h3>
+            <p class="project-card__category">Commercial Workspace</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="footer__logo">Elena Fidalgo</a>
+        <div class="footer__links">
+          <a href="about.html" class="footer__link">About</a>
+          <a href="approach.html" class="footer__link">Services</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Elena Fidalgo Designs. All rights reserved.</p>
+        <p>Montreal, QC, Canada</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
