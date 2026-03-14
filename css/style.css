@@ -803,6 +803,12 @@ p {
   overflow: hidden;
 }
 
+.about-portrait__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .about-portrait__placeholder {
   width: 100%;
   height: 100%;
